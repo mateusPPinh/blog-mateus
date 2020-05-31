@@ -6,12 +6,19 @@
   "dependencies": {
     "gatsby": "^2.22.15",
     "gatsby-plugin-catch-links": "^2.3.3",
+    "gatsby-plugin-feed": "^2.5.3",
+    "gatsby-plugin-google-analytics": "^2.3.2",
+    "gatsby-plugin-manifest": "^2.4.9",
+    "gatsby-plugin-offline": "^3.2.7",
+    "gatsby-plugin-react-helmet": "^3.3.2",
+    "gatsby-plugin-sitemap": "^2.4.3",
     "gatsby-source-filesystem": "^2.3.8",
     "gatsby-transformer-remark": "^2.8.13",
     "lodash": "^4.17.15",
     "minireset.css": "^0.0.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-helmet": "^6.0.0",
     "styled-components": "^5.1.1"
   }
 }

@@ -1,10 +1,13 @@
-import React from 'react';
-import Layout from '../components/Layout';
+import React from "react";
+import SEO from "../components/SEO/SEO";
+import Layout from "../components/Layout";
 
 export default () => (
   <Layout>
-    <p>
-      Ops, that page does not exists, sorry =()
-    </p>
+    <SEO
+      title="Página não encontrada"
+      description="Infelizmente a página desejada não pode ser encontrada"
+    />
+    <h2>Infelizmente a página desejada não pode ser encontrada!</h2>
   </Layout>
 );
