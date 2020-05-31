@@ -3,7 +3,7 @@ import Header from "../Header";
 import Sidebar from "../Sidebar";
 import Container from "../Container";
 import Helmet from "react-helmet";
-import favicon from "../../../static/favicon.png";
+import favicon from "../../../static/fiveicon.png";
 import config from "../../../data/config";
 import "./Layout.css";
 

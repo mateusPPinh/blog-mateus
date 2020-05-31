@@ -1,6 +1,21 @@
 var plugins = [{
       plugin: require('/Users/mateus/Documents/www/mateus-blog/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
+    },{
+      plugin: require('/Users/mateus/Documents/www/mateus-blog/node_modules/gatsby-plugin-offline/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
+      plugin: require('/Users/mateus/Documents/www/mateus-blog/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
+      plugin: require('/Users/mateus/Documents/www/mateus-blog/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      options: {"plugins":[],"name":"Mateus Blog","short_name":"CodeStack BR","description":"Get envolved with JS","start_url":"/","background_color":"#F2F3F4","theme_color":"#000000","display":"standalone","icon":"static/favicon.png","cache_busting_mode":"query","include_favicon":true,"legacy":true,"theme_color_in_head":true,"cacheDigest":null},
+    },{
+      plugin: require('/Users/mateus/Documents/www/mateus-blog/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      options: {"plugins":[],"trackingId":"**-********-*"},
+    },{
+      plugin: require('/Users/mateus/Documents/www/mateus-blog/node_modules/gatsby-plugin-feed/gatsby-ssr'),
+      options: {"plugins":[],"query":"\n          {\n            site {\n              siteMetadata {\n                title\n                description\n                siteUrl\n              }\n            }\n          }\n        ","feeds":[{"query":"\n              {\n                allMarkdownRemark(\n                  limit: 1000,\n                  sort: { order: DESC, fields: [frontmatter___date] },\n                  filter: {frontmatter: { draft: { ne: true } }}\n                ) {\n                  edges {\n                    node {\n                      excerpt\n                      html\n                      fields { slug }\n                      frontmatter {\n                        title\n                        date\n                      }\n                    }\n                  }\n                }\n              }\n            ","output":"/rss.xml","title":"Gatsby RSS Feed"}]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
