@@ -1,0 +1,17 @@
+{
+  "name": "mateus-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "gatsby": "^2.22.15",
+    "gatsby-plugin-catch-links": "^2.3.3",
+    "gatsby-source-filesystem": "^2.3.8",
+    "gatsby-transformer-remark": "^2.8.13",
+    "lodash": "^4.17.15",
+    "minireset.css": "^0.0.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.1"
+  }
+}

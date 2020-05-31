@@ -1,0 +1,23 @@
+.sidebar {
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: .50rem;
+  background-color: #FFFFFF;
+}
+
+.sidebar:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 10px rgba(255, 255, 255, 0.2);
+  transition: 0.2s;
+}
+
+.sidebar .sidebar-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sidebar .sidebar-description {
+  text-align: justify;
+  margin-top: 1rem;
+  line-height: 1.5;
+}
