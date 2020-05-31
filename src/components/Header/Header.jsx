@@ -17,6 +17,7 @@ export default () => (
       <header className="header">
         <Link to="/">
           <h1 className="header-title">{data.site.siteMetadata.title}</h1>
+          <h2>JS e seu ecossistema</h2>
         </Link>
       </header>
     )}
