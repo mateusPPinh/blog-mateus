@@ -13,7 +13,7 @@
     "gatsby-plugin-react-helmet": "^3.3.2",
     "gatsby-plugin-sitemap": "^2.4.3",
     "gatsby-source-filesystem": "^2.3.8",
-    "gatsby-transformer-remark": "^2.8.13",
+    "gatsby-transformer-remark": "^5.25.1",
     "lodash": "^4.17.15",
     "minireset.css": "^0.0.6",
     "react": "^16.13.1",
